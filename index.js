@@ -29,7 +29,8 @@ function deleteMovie(e){
 movieForm.addEventListener('submit', addMovie)
 
 
-function crossOffMovie (e){
+function crossOffMovie (e) 
+{
     let MOVIE = e.target.textContent
     e.target.classList.toggle('checked')
     if(e.target.classList.contains('checked')){
